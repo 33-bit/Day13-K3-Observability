@@ -5,8 +5,11 @@
 - Kết quả cuối của `validate_logs.py`.
 - Danh sách có tối thiểu 10 traces.
 - Một trace waterfall đầy đủ.
+- Hai prompt version và trace hiển thị đúng name/label/version.
+- Một bằng chứng đổi label hoặc rollback prompt.
 - Log JSON có correlation ID và metadata.
 - Log chứng minh PII đã được redact.
+- Kết quả `python scripts/validate_dashboard.py` hợp lệ.
 - Dashboard đủ 6 nhóm chỉ số.
 - Alert rules và runbook đã hoàn thiện.
 - Evidence điều tra challenge: metric, trace ID và log line liên quan.

@@ -21,13 +21,22 @@
 - Evidence trace waterfall:
 - Giải thích một span đáng chú ý:
 
-## 4. Dashboard, SLO và alerts
+## 4. Prompt versioning
 
+- Prompt name:
+- Version/label baseline:
+- Version/label candidate:
+- Trace ID của mỗi version:
+- Bằng chứng đổi label hoặc rollback:
+
+## 5. Dashboard, SLO và alerts
+
+- Kết quả `validate_dashboard.py`:
 - Evidence dashboard:
 - SLO đã chọn và lý do:
 - Alert rules và runbook:
 
-## 5. Điều tra challenge
+## 6. Điều tra challenge
 
 - Challenge ID:
 - Triệu chứng từ metrics:
@@ -37,7 +46,7 @@
 - Fix action:
 - Preventive measure:
 
-## 6. Đóng góp cá nhân
+## 7. Đóng góp cá nhân
 
 Với mỗi thành viên, ghi rõ nhiệm vụ và link commit/PR tương ứng.
 

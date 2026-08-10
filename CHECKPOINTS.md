@@ -2,6 +2,7 @@
 
 ## Checkpoint 0 — 0:00–0:30: Setup và baseline
 
+- Làm theo [SETUP.md](SETUP.md); ưu tiên Langfuse chung/cloud, Docker local chỉ là tùy chọn.
 - API và load test chạy được.
 - Có `data/logs.jsonl`.
 - Lưu kết quả baseline từ `python scripts/validate_logs.py` vào báo cáo.
@@ -16,9 +17,12 @@
 ## Checkpoint 2 — 1:30–2:30: Metrics, traces và dashboard
 
 - Có ít nhất 10 traces với metadata.
-- Dashboard thể hiện latency, traffic, error, token/cost và quality.
+- Làm theo [docs/PROMPT_VERSIONING.md](docs/PROMPT_VERSIONING.md): có prompt v1/v2; trace hiển thị `prompt_name`, `prompt_label` và `prompt_version`.
+- Thực hiện được một lần đổi label hoặc rollback; không chấm chất lượng prompt.
+- `python scripts/validate_dashboard.py` báo hợp lệ.
+- Làm theo [docs/DASHBOARD_SETUP.md](docs/DASHBOARD_SETUP.md): dashboard thể hiện latency, traffic, error, token/cost và quality theo [`config/dashboard.yaml`](config/dashboard.yaml).
 - Có SLO line hoặc threshold rõ ràng.
-- Chụp evidence vào `submission/evidence/`.
+- Chụp hai trace prompt, thao tác rollback, kết quả validator và dashboard vào `submission/evidence/`.
 
 ## Checkpoint 3 — 2:30–3:30: Challenge chính thức
 

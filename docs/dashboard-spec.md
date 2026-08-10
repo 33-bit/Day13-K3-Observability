@@ -1,5 +1,7 @@
 # Yêu cầu dashboard
 
+Contract có thể kiểm tra bằng máy nằm tại `config/dashboard.yaml`. Hướng dẫn dựng và kiểm tra runtime nằm tại [DASHBOARD_SETUP.md](DASHBOARD_SETUP.md).
+
 Dashboard chính cần đủ 6 nhóm thông tin:
 
 1. Latency P50/P95/P99.
@@ -17,3 +19,9 @@ Tiêu chuẩn trình bày:
 - Ghi rõ đơn vị.
 - Chỉ giữ 6–8 panel quan trọng ở lớp chính.
 - Screenshot phải nhìn được tên panel và khoảng thời gian.
+
+Kiểm tra contract trước khi chụp evidence:
+
+```bash
+python scripts/validate_dashboard.py
+```

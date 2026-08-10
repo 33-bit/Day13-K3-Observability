@@ -1,5 +1,7 @@
 # Hướng dẫn nộp bài
 
+Đọc checklist tổng ở [README.md](README.md) và hoàn thành từng mốc trong [CHECKPOINTS.md](CHECKPOINTS.md) trước khi nộp.
+
 ## Nội dung bắt buộc
 
 - Source đã hoàn thiện trong `app/`, `config/`, `scripts/` và `tests/`.
@@ -8,8 +10,11 @@
   - kết quả `validate_logs.py`;
   - danh sách tối thiểu 10 traces;
   - một trace waterfall;
+  - hai prompt version và trace gắn đúng version/label;
+  - một bằng chứng đổi label hoặc rollback prompt;
   - log có correlation ID;
   - bằng chứng PII đã được redact;
+  - kết quả `python scripts/validate_dashboard.py`;
   - dashboard đủ 6 nhóm chỉ số;
   - bằng chứng điều tra challenge.
 

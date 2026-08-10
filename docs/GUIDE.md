@@ -23,3 +23,14 @@ Kiểm tra thứ tự processor: dữ liệu phải được scrub trước khi 
 ## Khi dashboard khó đọc
 
 Mỗi panel cần tên, đơn vị, khoảng thời gian và threshold. Ưu tiên 6 panel chính thay vì thêm nhiều biểu đồ không phục vụ quyết định.
+
+Chạy `python scripts/validate_dashboard.py` trước. Nếu validator qua nhưng dashboard vẫn sai, đối chiếu từng event/field với bảng trong [DASHBOARD_SETUP.md](DASHBOARD_SETUP.md), đặc biệt `response_sent.latency_ms` và `response_sent.quality_score`.
+
+## Khi prompt luôn hiện `local-v1`
+
+1. Kiểm tra `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` và `LANGFUSE_HOST`.
+2. Kiểm tra prompt name/label trong `.env` có tồn tại trên đúng project không.
+3. Khởi động lại API sau khi đổi `.env`.
+4. Mở trace metadata: `prompt_source=local` nghĩa là chưa bật Langfuse; `local-fallback` nghĩa là đã bật nhưng fetch prompt lỗi.
+
+Không sửa code để ghi giả version. Làm theo [PROMPT_VERSIONING.md](PROMPT_VERSIONING.md) và lấy trace thật làm evidence.
