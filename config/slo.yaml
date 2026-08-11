@@ -4,13 +4,16 @@ slis:
   latency_p95_ms:
     objective: 3000
     target: 99.5
-    note: Replace with your group's target
+    note: P95 response latency should remain below 3 seconds for at least 99.5% of requests.
   error_rate_pct:
     objective: 2
     target: 99.0
+    note: Keep failed requests below 2% so users can complete the chat flow reliably.
   daily_cost_usd:
     objective: 2.5
     target: 100.0
+    note: Keep estimated daily spend below the lab budget of 2.5 USD.
   quality_score_avg:
     objective: 0.75
     target: 95.0
+    note: Maintain a quality proxy average of at least 0.75 for 95% of the measurement window.
