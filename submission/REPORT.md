@@ -12,16 +12,16 @@
 
 ## 2. Kết quả kỹ thuật
 
-- Điểm `validate_logs.py`: 30/100 (baseline — Checkpoint 0)
+- Điểm `validate_logs.py`: 100/100 (hiện tại; baseline ban đầu Checkpoint 0: 30/100)
 - Tổng số traces:
-- Số PII leak còn lại: 0 (baseline)
+- Số PII leak còn lại: 0
 - Link/đường dẫn dashboard:
 - Checkpoint 0: API health đạt; load test có 10 request HTTP 200; tạo được `data/logs.jsonl` với 22 bản ghi.
 
 ## 3. Logging và tracing
 
-- Evidence correlation ID:
-- Evidence PII redaction:
+- Evidence correlation ID: `data/logs.jsonl` — 10 unique correlation IDs; xem `submission/evidence/log_validator.png`
+- Evidence PII redaction: `data/logs.jsonl` — email thử nghiệm được che thành `[REDACTED_EMAIL]`; xem `submission/evidence/redacted_log.png`
 - Evidence trace waterfall:
 - Giải thích một span đáng chú ý:
 
