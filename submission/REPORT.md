@@ -2,17 +2,21 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: VuaCanTin
 - Repository URL:
 - Commit SHA cuối:
 - Thành viên và vai trò:
+  - Hoàng Danh Thái — 2A202601527 — Checkpoint 3
+  - Trần Quang Trọng — 2A202601461 — Checkpoint 2 và Checkpoint 0
+  - Nguyễn Quang Huy — 2A202601954 — Checkpoint 1
 
 ## 2. Kết quả kỹ thuật
 
-- Điểm `validate_logs.py`:
+- Điểm `validate_logs.py`: 30/100 (baseline — Checkpoint 0)
 - Tổng số traces:
-- Số PII leak còn lại:
+- Số PII leak còn lại: 0 (baseline)
 - Link/đường dẫn dashboard:
+- Checkpoint 0: API health đạt; load test có 10 request HTTP 200; tạo được `data/logs.jsonl` với 22 bản ghi.
 
 ## 3. Logging và tracing
 
@@ -52,4 +56,6 @@ Với mỗi thành viên, ghi rõ nhiệm vụ và link commit/PR tương ứng.
 
 | Thành viên | Phần việc | Commit/PR | Điều đã học |
 |---|---|---|---|
-| | | | |
+| Hoàng Danh Thái — 2A202601527 | Checkpoint 3 | | |
+| Trần Quang Trọng — 2A202601461 | Checkpoint 2 và Checkpoint 0 | | |
+| Nguyễn Quang Huy — 2A202601954 | Checkpoint 1 | | |
