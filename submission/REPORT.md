@@ -4,7 +4,7 @@
 
 - Tên nhóm: VuaCanTin
 - Repository URL: https://github.com/33-bit/Day13-K3-Observability
-- Commit SHA cuối: sẽ cập nhật ngay sau khi commit/amend và push
+- Commit SHA tham chiếu cho bộ dashboard/evidence: `22c07e6b69e336918d44a17b7cd4d89e0a379f8d`
 - Thành viên và vai trò:
   - Hoàng Danh Thái — 2A202601527 — Checkpoint 3
   - Trần Quang Trọng — 2A202601461 — Checkpoint 2 và Checkpoint 0
