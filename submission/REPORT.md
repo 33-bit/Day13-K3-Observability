@@ -59,5 +59,5 @@ Với mỗi thành viên, ghi rõ nhiệm vụ và link commit/PR tương ứng.
 | Thành viên | Phần việc | Commit/PR | Điều đã học |
 |---|---|---|---|
 | Hoàng Danh Thái — 2A202601527 | Checkpoint 3 | Commit/PR của CP3 | Thiết kế và kiểm tra phần đánh giá cuối lab |
-| Trần Quang Trọng — 2A202601461 | Checkpoint 2 và Checkpoint 0; Langfuse MCP, 6 dashboard panels, SLO/alerts, evidence và report | Commit này sau khi push | Đối chiếu logs, traces, metrics và prompt versioning để vận hành có thể kiểm chứng |
+| Trần Quang Trọng — 2A202601461 | Checkpoint 2 và Checkpoint 0; Langfuse MCP, 6 dashboard panels, SLO/alerts, evidence và report | [Commit/PR của CP2](https://github.com/33-bit/Day13-K3-Observability/commit/22c07e6b69e336918d44a17b7cd4d89e0a379f8d) | Đối chiếu logs, traces, metrics và prompt versioning để vận hành có thể kiểm chứng |
 | Nguyễn Quang Huy — 2A202601954 | Checkpoint 1: enrichment, correlation ID và PII scrubbing | Commit/PR của CP1 | Chuẩn hoá log có context và bảo vệ dữ liệu nhạy cảm |
